@@ -1,44 +1,37 @@
-# Computer Graphics Exercises
+# C++ Computer Graphics Implementations 🎨🚀
 
-## Overview
-This repository contains various computer graphics exercises focused on fundamental rendering techniques, OpenGL programming, and visualization strategies.
+Welcome to **paulpapi's** repository for **C++ Computer Graphics**! This collection showcases various implementations of rendering techniques, transformations, and visual effects using OpenGL and other graphics libraries.
 
-## Exercises
+## 📌 Overview
+This repository focuses on fundamental and advanced graphics programming concepts, including:
+- **Basic Rendering** – Drawing shapes, handling colors, and rendering pixels.
+- **Geometric Transformations** – Scaling, rotating, and translating objects.
+- **Shading & Lighting** – Implementing shaders for visual effects.
+- **3D Graphics** – Projection techniques and camera movements.
 
-### 1. **Basic OpenGL Setup**
-- Initialize an OpenGL window using GLFW and GLEW.
-- Configure a basic rendering loop.
-- Handle input controls for interaction.
+## 🔍 Implemented Graphics Techniques
+### **1. Basic Rendering**
+- Drawing lines, triangles, and polygons using OpenGL.
+- Handling color manipulation and rasterization.
 
-### 2. **Vertex Shader and Fragment Shader**
-- Create a simple vertex shader to manipulate object positions.
-- Implement a fragment shader for basic color processing.
+### **2. Geometric Transformations**
+- Scaling, rotation, and translation matrices.
+- Affine transformations for object manipulation.
 
-### 3. **Transformations and Matrix Scaling**
-- Apply translation, rotation, and scaling transformations.
-- Understand matrix multiplications in OpenGL.
+### **3. Shaders & Visual Effects**
+- Vertex and fragment shaders using GLSL.
+- Texture mapping and lighting calculations.
 
-### 4. **Clipping Algorithms**
-- Explore Cohen-Sutherland and Liang-Barsky clipping techniques.
-- Implement viewport clipping within OpenGL.
+### **4. 3D Graphics & Camera**
+- Implementing perspective and orthographic projections.
+- Using `gluLookAt()` for camera positioning.
 
-### 5. **Pseudo Color Processing**
-- Convert grayscale images into pseudo-color representations.
-- Apply color mapping techniques for visualization.
+### **5. Advanced Graphics Features**
+- Clipping algorithms for viewport control.
+- Pseudo-color processing for scientific visualization.
 
-### 6. **Camera Controls with `gluLookAt`**
-- Implement dynamic camera movement using `gluLookAt`.
-- Explore perspective and orthographic projections.
-
-## Dependencies
-Ensure the following libraries are installed:
-- OpenGL
-- GLFW
-- GLEW
-- GLM (for matrix operations)
-
-## Usage
-Compile and run the exercises using:
+## 💻 Getting Started
+Clone this repository and explore the graphics implementations:
 ```sh
-g++ -o graphics_exercise exercise.cpp -lglfw -lGLEW -lGL
-./graphics_exercise
+git clone https://github.com/paulpapi/Cpp-Graphics.git
+cd Cpp-Graphics
